@@ -335,10 +335,18 @@ ul {
   letter-spacing: 0.03em;
   color: var(--txt-paragraph-grey);
 }
-.priorities-list-icon {
+.priorities-list-item > div {
   width: 270px;
   height: 120px;
+  padding: 25px 100px;
   margin-bottom: 30px;
+  background-color: var(--light-grey);
+  border-radius: 4px;
+  align-items: center;
+}
+.priorities-list-icon {
+  width: 70px;
+  height: 70px;
 }
 /* 
 .priorities-list-item::before {
