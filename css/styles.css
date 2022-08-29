@@ -510,6 +510,25 @@ ul {
 .clients-list-link:focus .clients-list-icon {
   fill: var(--accent-blue);
 }
+
+/* Modal-window */
+.modal-overlay {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transform: translate();
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 /* PORTFOLIO PAGE */
 
 /* Portfolio filter buttons */
